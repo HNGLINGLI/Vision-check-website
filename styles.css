@@ -1,0 +1,132 @@
+/* Overall Styling (No change for Desktop) */
+.logo-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 130px;
+    height: 130px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.logo-box img {
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+}
+
+body {
+    font-family: Times New Roman;
+    color: white;
+}
+
+/* Split screen layout for desktop */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+    background-color: #3d5a80;
+}
+
+.right {
+    right: 0;
+    background-color: #84a7ba;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.centered img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.centered i {
+    font-size: 150px;
+    color: white;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #dfe9eb;
+    color: #5d6169;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #b0bec5;
+    color: #ffffff;
+}
+
+/* ADDITION: Responsive design for mobile */
+@media screen and (max-width: 768px) {
+    /* Stack sections vertically */
+    .split {
+        width: 100%; /* Full width for both sides on mobile */
+        position: relative; /* Stack sections vertically */
+        height: 50%; /* Each takes half the screen height */
+    }
+
+    /* Adjust the left section to be the top half */
+    .left {
+        top: 0;
+        height: 50%;
+    }
+
+    /* Adjust the right section to be the bottom half */
+    .right {
+        bottom: 0;
+        height: 50%;
+    }
+
+    /* Adjust logo-box size for mobile */
+    .logo-box {
+        width: 100px; /* Smaller logo-box */
+        height: 100px;
+    }
+
+    /* Adjust logo image size */
+    .logo-box img {
+        width: 80px;
+    }
+
+    /* Centered content adjustments for smaller screens */
+    .centered img {
+        width: 120px; /* Adjust image size */
+    }
+
+    .centered i {
+        font-size: 100px; /* Reduce icon size */
+    }
+
+    /* Adjust button size for mobile */
+    button {
+        font-size: 16px;
+        padding: 8px 15px;
+    }
+}
