@@ -22,7 +22,7 @@ A web application designed to facilitate vision testing and result tracking, all
 - **Backend**: PHP
 - **ThingSpeak API**: For data storage and management
 - **Visual Studio Code**: For editing and managing the project files.
-- 
+  
 ## Installation
 
 1. **Clone the Repository**:
