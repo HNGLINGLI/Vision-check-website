@@ -17,9 +17,6 @@ A web application designed to facilitate vision testing and result tracking, all
   - **Export Options**: Export data in multiple formats (PDF, Excel, CSV).
   - **Copy and Print**: Easily copy or print the displayed data.
 
-## Data Management
-All vision test results are uploaded to ThingSpeak, ensuring real-time data accessibility and updates for both students and teachers.
-
 ## Technologies Used
 - **Frontend**: HTML, CSS, JavaScript, Bootstrap
 - **Backend**: PHP
