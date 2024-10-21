@@ -20,16 +20,16 @@ A web application designed to facilitate vision testing and result tracking, all
 ## Technologies Used
 - **Frontend**: HTML, CSS, JavaScript, Bootstrap
 - **Backend**: PHP
-- **Data Storage**: ThingSpeak API for data management
-
-## Demo
-You can view the website here: [hnglingli.com](https://hnglingli.com)
-
+- **ThingSpeak API**: For data storage and management
+- **Visual Studio Code**: For editing and managing the project files.
+- 
 ## Installation
 To run this project locally, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/hnglingli/Vision-check-website.git
-
+   
+## Demo
+You can view the website here: [hnglingli.com](https://hnglingli.com)
 
