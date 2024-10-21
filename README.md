@@ -24,7 +24,6 @@ A web application designed to facilitate vision testing and result tracking, all
 - **Visual Studio Code**: For editing and managing the project files.
 - 
 ## Installation
-To run this project locally, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
